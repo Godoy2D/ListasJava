@@ -8,15 +8,24 @@ import java.util.Scanner;
 public class Exercicio01 {
 
 	public static void main(String[] args) {
-		Scanner sc= new Scanner (System.in);
+
+		Scanner escopo = new Scanner(System.in);
 		
-		System.out.println("Digite um número :");
-		int numero = sc.nextInt();
-		int contadora = 1;
+		System.out.println("olá, digite um número para que possamos realizar a tabuada do 1 ao 10:");
+		int numero = escopo.nextInt();
 		
-		while (contadora <= 10) {
-			System.out.println(numero+" x "+contadora+" = "+numero*contadora);
-			contadora++;
-		}
+		System.out.println("\nsegue a tabuada do "+numero+":\n\n");
+		System.out.println(numero+"*1"+"= "+numero*1);
+		System.out.println(numero+"*2"+"= "+numero*2);
+		System.out.println(numero+"*3"+"= "+numero*3);
+		System.out.println(numero+"*4"+"= "+numero*4);
+		System.out.println(numero+"*5"+"= "+numero*5);
+		System.out.println(numero+"*6"+"= "+numero*6);
+		System.out.println(numero+"*7"+"= "+numero*7);
+		System.out.println(numero+"*8"+"= "+numero*8);
+		System.out.println(numero+"*9"+"= "+numero*9);
+		System.out.println(numero+"*10"+"= "+numero*10);
+		
+		escopo.close();
 	}
 }

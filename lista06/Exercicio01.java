@@ -3,15 +3,17 @@ package lista06;
 import java.util.Scanner;
 
 public class Exercicio01 {
-
-	public class Exercicio01_LerDoisValoresNumerico {
+ public static void main(String[] args) {
 
 		/*
 		 * 1) Ler dois valores numéricos inteiros e apresentar o resultado da diferença
 		 * do maior pelo menor valor.
 		 */
 
-		public static void main(String[]Args) {
+		/**
+		 * @param Args
+		 */
+		public static void main(final String[]Args) {
 			
 			Scanner sc = new Scanner (System.in);
 			
